@@ -1,0 +1,23 @@
+{
+  "name": "tailby",
+  "version": "0.0.1",
+  "description": "Simple boilerplate for Kirby CMS with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss site/tailwind/tailwind.css -o assets/style.css",
+   "watch": "postcss site/tailwind/tailwind.css -o assets/style.css --watch",
+   "prod": "cross-env NODE_ENV=production postcss site/tailwind/tailwind.css -o assets/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.2",
+    "postcss-cli": "^8.3.1",
+    "postcss-nesting": "^8.0.0",
+    "tailwindcss": "^2.1.2"
+  }
+}
