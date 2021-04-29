@@ -2,7 +2,7 @@
 I just add Tailwind CSS to the Kirby Plainkit starter pack. With Purge via PostCSS and Kirby as submodule. 
 More coming soon.
 
-## Generate Tailwind
+## Generate Tailwind output
     npm run build
 Run this command for a non-minified and non-purged dev version of your stylesheet. Source for the stylesheet is site/tailwind/tailwind.css, destination is assets/style.css
 
