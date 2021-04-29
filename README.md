@@ -2,5 +2,5 @@
 I just add Tailwind CSS to the Kirby Plainkit starter pack. There are no changes at the workflow(s). More coming soon.
 
 ## Credits
-- **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
+- **[getkirby.com](https://getkirby.com)** – Flat file PHP CMS.
 - **[tailwindcss.com](https://tailwindcss.com/)** – THE utility first framework.
